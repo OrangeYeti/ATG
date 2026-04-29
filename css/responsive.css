@@ -259,6 +259,11 @@
     word-break: keep-all;
   }
 
+  html[data-locale="en"] .hero__title {
+    font-size: clamp(2.2rem, 9.6vw, 2.58rem);
+    line-height: 1.08;
+  }
+
   .hero__body {
     max-width: 100%;
     margin-top: 18px;

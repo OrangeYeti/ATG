@@ -425,8 +425,8 @@ window.ATG_CONTENT = {
     },
     hero: {
       eyebrow: "AY TECH GLOBAL",
-      title: "Connecting Korea-China business through execution",
-      titleLines: ["Korea-China business", "executed on the ground"],
+      title: "Korea-China Business Execution Partner",
+      titleLines: ["Korea-China Business", "Execution Partner"],
       body:
         "AY TECH GLOBAL supports Korean companies with China market entry, partner discovery, trade execution, technology cooperation, and investment projects through its Busan headquarters and Shanghai-Weihai network.",
       chips: [
