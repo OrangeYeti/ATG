@@ -2,15 +2,15 @@
   .header__inner {
     width: min(calc(100% - 24px), var(--container));
     gap: 10px;
-    padding-inline: 18px 12px;
+    padding-inline: 14px 12px;
   }
 
   .brand,
   .site-header.is-scrolled .brand,
   .site-header.is-open .brand {
-    flex-basis: 138px;
-    width: 138px;
-    height: 38px;
+    flex-basis: 124px;
+    width: 124px;
+    height: 34px;
   }
 
   .header__nav {
@@ -67,7 +67,7 @@
     width: min(calc(100% - 24px), var(--container));
     min-height: 52px;
     margin-top: 10px;
-    padding: 0 12px 0 18px;
+    padding: 0 12px 0 14px;
     justify-content: flex-start;
     gap: 10px;
   }
@@ -75,9 +75,9 @@
   .brand,
   .site-header.is-scrolled .brand,
   .site-header.is-open .brand {
-    flex: 0 0 138px;
-    width: 138px;
-    height: 38px;
+    flex: 0 0 124px;
+    width: 124px;
+    height: 34px;
   }
 
   .header__nav {
@@ -434,9 +434,9 @@
   .brand,
   .site-header.is-scrolled .brand,
   .site-header.is-open .brand {
-    flex-basis: 130px;
-    width: 130px;
-    height: 36px;
+    flex-basis: 117px;
+    width: 117px;
+    height: 32px;
   }
 
   .menu-button {

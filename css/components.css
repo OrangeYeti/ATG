@@ -20,7 +20,7 @@
   width: min(calc(100% - 48px), var(--container));
   min-height: 58px;
   margin-top: 12px;
-  padding: 0 16px 0 24px;
+  padding: 0 16px 0 18px;
   align-items: center;
   justify-content: space-between;
   gap: 18px;
@@ -50,9 +50,9 @@
   display: inline-flex;
   align-items: center;
   justify-content: flex-start;
-  flex: 0 0 152px;
-  width: 152px;
-  height: 42px;
+  flex: 0 0 137px;
+  width: 137px;
+  height: 38px;
   overflow: hidden;
   border: 0;
   border-radius: 0;
@@ -66,8 +66,8 @@
 
 .site-header.is-scrolled .brand,
 .site-header.is-open .brand {
-  width: 152px;
-  height: 42px;
+  width: 137px;
+  height: 38px;
 }
 
 .brand__logo {
