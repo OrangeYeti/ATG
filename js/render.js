@@ -80,7 +80,7 @@
     header.innerHTML = `
       <div class="container header__inner">
         <a class="brand" href="#top" aria-label="${escapeHtml(content.brand.name)}">
-          <img class="brand__logo" src="${escapeHtml(config.assets.logos.horizontal)}" alt="${escapeHtml(content.brand.name)}" width="196" height="84" decoding="async" />
+          <img class="brand__logo" src="${escapeHtml(config.assets.logos.horizontal)}" alt="${escapeHtml(content.brand.name)}" width="1026" height="276" decoding="async" />
         </a>
 
         <nav class="header__nav" aria-label="Primary">
@@ -580,8 +580,8 @@
       <div class="container footer__inner">
         <div class="footer__brand">
           <div class="footer__brand-line">
-            <img class="footer__logo" src="${escapeHtml(config.assets.logos.monoLight)}" alt="${escapeHtml(content.footer.name)}" loading="lazy" decoding="async" />
-            <span class="footer__wordmark">AY Tech Global</span>
+            <img class="footer__logo" src="${escapeHtml(config.assets.logos.monoReverse)}" alt="${escapeHtml(content.footer.name)}" loading="lazy" decoding="async" />
+            <span class="footer__wordmark">에이와이텍 글로벌 주식회사</span>
           </div>
           <div class="footer__legal">
             <span>${escapeHtml(content.footer.ceo)}</span>

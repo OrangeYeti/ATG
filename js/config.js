@@ -7,16 +7,19 @@ window.ATG_CONFIG = {
   ],
   assets: {
     logos: {
-      horizontal: "assets/logos/brand/logo-horizontal-lockup-cropped.png",
       master: "assets/logos/brand/logo-master.png",
+      horizontal: "assets/logos/brand/logo-horizontal.png",
+      favicon: "assets/logos/brand/logo-favicon.png",
+      monoDark: "assets/logos/brand/logo-mono-dark.png",
       monoLight: "assets/logos/brand/logo-mono-light.png",
-      main: "assets/logos/brand/logo-horizontal-lockup-cropped.png",
+      monoReverse: "assets/logos/brand/logo-mono-reverse.png",
+      main: "assets/logos/brand/logo-horizontal.png",
       astWide: "assets/logos/logo-ast-wide.png",
       astSquare: "assets/logos/logo-ast-square.png"
     },
     favicons: {
-      favicon32: "assets/favicons/favicon-32.png",
-      appleTouchIcon: "assets/favicons/apple-touch-icon.png",
+      favicon32: "assets/logos/brand/logo-favicon.png",
+      appleTouchIcon: "assets/logos/brand/logo-favicon.png",
       manifest: "assets/favicons/site.webmanifest"
     },
     docs: {
