@@ -18,8 +18,8 @@ window.ATG_CONFIG = {
       astSquare: "assets/logos/logo-ast-square.png"
     },
     favicons: {
-      favicon32: "assets/logos/brand/logo-favicon.png",
-      appleTouchIcon: "assets/logos/brand/logo-favicon.png",
+      favicon32: "assets/favicons/favicon-32.png",
+      appleTouchIcon: "assets/favicons/apple-touch-icon.png",
       manifest: "assets/favicons/site.webmanifest"
     },
     docs: {
