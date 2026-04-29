@@ -24,11 +24,21 @@
 
   function sectionHeader(data, titleId) {
     const section = data || {};
+    const mobileLines = safeArray(section.mobileTitleLines);
+    const titleClass = mobileLines.length ? "section__title section__title--has-mobile" : "section__title";
+    const titleMarkup = mobileLines.length
+      ? `
+          <span class="section__title-text section__title-text--desktop">${escapeHtml(section.title)}</span>
+          <span class="section__title-text section__title-text--mobile" aria-hidden="true">
+            ${mobileLines.map((line) => `<span class="title-line">${escapeHtml(line)}</span>`).join("")}
+          </span>
+        `
+      : escapeHtml(section.title);
     return `
       <div class="section__header reveal">
         <div>
           <div class="section__eyebrow">${escapeHtml(section.eyebrow)}</div>
-          <h2 class="section__title" ${titleId ? `id="${escapeHtml(titleId)}"` : ""}>${escapeHtml(section.title)}</h2>
+          <h2 class="${titleClass}" ${titleId ? `id="${escapeHtml(titleId)}"` : ""} ${mobileLines.length ? `aria-label="${escapeHtml(section.title)}"` : ""}>${titleMarkup}</h2>
         </div>
         ${section.desc ? `<p class="section__desc">${escapeHtml(section.desc)}</p>` : ""}
       </div>

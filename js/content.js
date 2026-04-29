@@ -39,6 +39,7 @@ window.ATG_CONTENT = {
     services: {
       eyebrow: "Services",
       title: "중국 사업에서 파트너, 거래, 실행 구조가 필요할 때",
+      mobileTitleLines: ["중국 사업 실행에 필요한", "4가지 구조"],
       desc:
         "시장 검토부터 파트너 연결, 공급·무역 실행, 기술·투자 협력까지 한중 사업의 핵심 실행 구간을 지원합니다.",
       items: [
@@ -103,6 +104,7 @@ window.ATG_CONTENT = {
     execution: {
       eyebrow: "Execution",
       title: "현지 네트워크를 기반으로 검토부터 실행까지 연결합니다",
+      mobileTitleLines: ["현지 네트워크로", "실행까지 연결합니다"],
       desc:
         "AY TECH GLOBAL은 부산 본사와 중국 상하이·웨이하이 네트워크를 기반으로 과제 진단, 현지 가능성 검토, 파트너 연결, 거래 실행을 단계적으로 지원합니다.",
       steps: [
@@ -440,6 +442,7 @@ window.ATG_CONTENT = {
     services: {
       eyebrow: "Services",
       title: "When your China project needs partners, transactions, and execution",
+      mobileTitleLines: ["Four Structures", "for China Business Execution"],
       desc:
         "We support the key execution stages of Korea-China business, from market review and partner connection to trade, supply, technology cooperation, and investment structuring.",
       items: [
@@ -504,6 +507,7 @@ window.ATG_CONTENT = {
     execution: {
       eyebrow: "Execution",
       title: "From review to execution through local networks",
+      mobileTitleLines: ["Local Networks", "for Execution"],
       desc:
         "AY TECH GLOBAL supports task diagnosis, local feasibility review, partner connection, and transaction execution through its Busan headquarters and Shanghai-Weihai network in China.",
       steps: [
@@ -841,6 +845,7 @@ window.ATG_CONTENT = {
     services: {
       eyebrow: "服务领域",
       title: "当中国事业需要合作伙伴、交易和执行结构时",
+      mobileTitleLines: ["中国事业执行所需的", "四项结构"],
       desc:
         "从市场调研、合作伙伴对接，到贸易供应执行、技术合作和投资结构设计，我们支持韩中事业的关键执行环节。",
       items: [
@@ -905,6 +910,7 @@ window.ATG_CONTENT = {
     execution: {
       eyebrow: "Execution",
       title: "依托当地网络，从评估连接到执行",
+      mobileTitleLines: ["依托当地网络", "连接执行"],
       desc:
         "AY TECH GLOBAL 依托釜山总部及中国上海、威海网络，分阶段支持课题诊断、当地可行性评估、合作伙伴对接及交易执行。",
       steps: [

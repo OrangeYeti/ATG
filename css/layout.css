@@ -54,6 +54,18 @@
   word-break: keep-all;
 }
 
+.section__title-text {
+  display: inline;
+}
+
+.section__title-text--mobile {
+  display: none;
+}
+
+.title-line {
+  display: block;
+}
+
 .section__desc {
   max-width: 720px;
   color: var(--ink-600);

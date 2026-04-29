@@ -253,8 +253,10 @@
   }
 
   .hero__title {
-    font-size: clamp(2.38rem, 11.6vw, 2.95rem);
-    line-height: 1.06;
+    font-size: clamp(2.2rem, 9.6vw, 2.58rem);
+    line-height: 1.08;
+    overflow-wrap: break-word;
+    word-break: keep-all;
   }
 
   .hero__body {
@@ -299,7 +301,22 @@
   }
 
   .section__title {
-    font-size: clamp(1.88rem, 9vw, 2.65rem);
+    font-size: clamp(1.78rem, 8.4vw, 2.42rem);
+    line-height: 1.12;
+    overflow-wrap: break-word;
+    word-break: keep-all;
+  }
+
+  .section__title--has-mobile .section__title-text--desktop {
+    display: none;
+  }
+
+  .section__title--has-mobile .section__title-text--mobile {
+    display: block;
+  }
+
+  .title-line {
+    display: block;
   }
 
   .section__header {
